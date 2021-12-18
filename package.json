@@ -1,0 +1,27 @@
+{
+  "name": "import.export",
+  "version": "1.0.0",
+  "description": "simple webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "dev": "cross-env NODE_ENV=development webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tim-pushak/export-import-in-webpack.git"
+  },
+  "author": "Tim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tim-pushak/export-import-in-webpack/issues"
+  },
+  "homepage": "https://github.com/tim-pushak/export-import-in-webpack#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
